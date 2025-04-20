@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FF0000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:elevation="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Bad Client"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/credit"
+        android:text="By Dragonmodder (Jhon)"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnFly"
+        android:text="Fly"
+        android:background="#AA0000"
+        android:textColor="#000000"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnXray"
+        android:text="X-Ray"
+        android:background="#AA0000"
+        android:textColor="#000000"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnAutoClick"
+        android:text="AutoClicker"
+        android:background="#AA0000"
+        android:textColor="#000000"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnSpam"
+        android:text="Spam Chat"
+        android:background="#AA0000"
+        android:textColor="#000000"
+        android:layout_marginBottom="6dp" />
+
+</LinearLayout>
